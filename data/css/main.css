@@ -173,3 +173,7 @@ a:active {
     text-decoration: none;
 }
 
+.heading, .heading:hover, .heading:active, .heading:visited {
+    color: #90201e; 
+    text-decoration: underline;
+}
