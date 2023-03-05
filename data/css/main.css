@@ -87,6 +87,14 @@
     color: #333333;
 }
 
+.main-text-1-with-callout {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+
 .main-text-1 h2 {
     font-size: 21px;
     padding-bottom: 30px;
@@ -94,7 +102,20 @@
     color: #90201e;
 }
 
+.main-text-1-with-callout h2 {
+    font-size: 21px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #90201e;
+}
+
+
 .main-text-1 p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.main-text-1-with-callout p {
     font-size: 16px;
     padding-bottom: 20px;
 }
@@ -166,10 +187,31 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: #90201e;
+    color: #333333;
+}
+
+.button {
+    overflow: visible;
+    margin-top: 8px;
+}
+
+.button a {
+    background-color: #90201e; 
+    padding: 8px;
+    color: #ffffff;
+    border-radius: 3px;
 }
 
 .heading, .heading:hover, .heading:active, .heading:visited {
     color: #90201e; 
     text-decoration: underline;
+}
+
+.callout {
+    color: #000000;
+    font-size: 14px !important;
+    background-color: #F4F3F0;
+    padding: 8px !important;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
