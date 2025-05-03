@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /data/pdf/
 Disallow: /cdn-cgi/
+Disallow: /index1.html
